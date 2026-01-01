@@ -250,7 +250,7 @@ function Pre(props) {
           <animate 
             attributeName="opacity" 
             values="0;1;0" 
-            dur="0.4s" 
+            dur="0.6s" 
             begin="3.2s" 
             fill="freeze" 
           />
@@ -261,7 +261,7 @@ function Pre(props) {
           attributeName="transform"
           type="scale"
           values="1 1; 1.02 1.02; 1 1"
-          dur="0.3s"
+          dur="0.5s"
           begin="3.2s"
           fill="freeze"
         />
