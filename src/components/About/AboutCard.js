@@ -16,7 +16,7 @@ function AboutCard() {
             </span>.
             <br />
             I am currently working as a{" "}
-            <span className="purple">PHP Developer Intern</span> at{" "}
+            <span className="purple">Full Stack Web Developer Intern</span> at{" "}
             <span className="purple">OSMOS Multimedia Pvt. Ltd.</span> contributing to backend development 
             and the implementation of web-based applications.
             <br />
