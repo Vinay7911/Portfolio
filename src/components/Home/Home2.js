@@ -21,7 +21,7 @@ function Home2() {
             <p className="home-about-body">
               I developed a passion for programming and have been continuously learning and improving my skills.
               <br />
-              <br />I am fluent in classics like
+              <br />I have a solid foundation in 
               <i>
                 <b className="purple"> Java, Javascript and Php. </b>
               </i>
@@ -29,7 +29,7 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products. </b> 
+                <b className="purple">Web Technologies and Products. </b>
               </i>
               <br />
               <br />
@@ -43,6 +43,37 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
+        <Row>
+          <Col md={12} className="home-about-description" style={{ marginTop: "2rem" }}>
+            <h1 style={{ fontSize: "2.6em" }}>
+              MY <span className="purple"> SKILLS </span>
+            </h1>
+            <div style={{ marginTop: "1.5rem" }}>
+              <p style={{ marginBottom: "0.4rem" }}>
+                <b className="purple">Languages: </b>
+                Java, JavaScript ES6, HTML5, CSS3, PHP.
+              </p>
+              <p style={{ marginBottom: "0.4rem" }}>
+                <b className="purple">Technologies / Frameworks: </b>
+                React.js, Node.js, Express.js, MySQL, MongoDB, REST APIs, Postman.
+              </p>
+              <p style={{ marginBottom: "1rem" }}>
+                <b className="purple">Tools: </b>
+                Git, VS Code, Eclipse, Android Studio.
+              </p>
+              <p style={{ marginBottom: "0.4rem" }}>
+                <b className="purple">AI / ML (Learning): </b>
+                Python, NumPy, Pandas, Scikit-learn.
+              </p>
+              <p style={{ marginBottom: "0.4rem" }}>
+                <b className="purple">DevOps: </b>
+                Docker, GitHub Actions, CI/CD Pipelines, Linux, Nginx, AWS (EC2, S3).
+              </p>
+            </div>
+          </Col>
+        </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -55,31 +86,34 @@ function Home2() {
                   href="https://github.com/Vinay7911"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
                   href="https://x.com/VinayMishr50014?t=iA6KtEEB64GMdTG3d5_vyQ&s=09"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/vinay-mishra-413384339/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/vinaymishra_7911"
@@ -97,4 +131,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
